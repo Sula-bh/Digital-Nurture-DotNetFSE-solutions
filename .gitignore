@@ -1,0 +1,36 @@
+## Core Build Outputs
+[Bb]in/
+[Oo]bj/
+[Ex]t[Ex]e/
+
+## IDE User Specific Files (Visual Studio / VS Code / Rider)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+.vscode/
+.idea/
+
+## Package Management
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/packages/
+!**/packages/repositories.config
+
+## Testing and Code Coverage
+TestResults/
+*.CodeCoverage
+_Chutzpah*
+
+## Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+## Environment Settings (Keep your actual secrets local!)
+*.env
+*.env.development
+*.env.local
