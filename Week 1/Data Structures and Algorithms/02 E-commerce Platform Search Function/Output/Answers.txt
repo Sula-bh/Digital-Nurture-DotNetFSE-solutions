@@ -1,0 +1,57 @@
+1. Explain Big O notation and how it helps in analyzing algorithms.
+
+Answer:
+
+The Importance of Big O Notation are:
+
+Performance Measurement: Big O notation describes how the execution time of an algorithm grows as the input size increases.
+Algorithm Comparison: It helps compare different algorithms based on their efficiency.
+Scalability Analysis: It predicts how an algorithm will perform with large datasets.
+Optimization: It helps identify inefficient algorithms and improve performance.
+
+2. Describe the best, average, and worst-case scenarios for search operations.
+
+Answer:
+
+The Search Operation Scenarios are:
+
+Best Case: The target element is found in the first comparison.
+Average Case: The target element is found after several comparisons.
+Worst Case: The target element is found at the last position or is not present.
+
+For Linear Search:
+
+Best Case: O(1)
+Average Case: O(n)
+Worst Case: O(n)
+
+For Binary Search:
+
+Best Case: O(1)
+Average Case: O(log n)
+Worst Case: O(log n)
+
+3. Compare the time complexity of linear and binary search algorithms.
+
+Answer:
+
+The Time Complexity Comparison is:
+
+Operation		Linear Search	Binary Search
+Best Case		O(1)			O(1)
+Average Case	O(n)			O(log n)
+Worst Case		O(n)			O(log n)
+
+4. Discuss which algorithm is more suitable for the e-commerce platform and why.
+
+Answer:
+
+The More Suitable Algorithm is Binary Search.
+
+Reasons:
+
+Faster search performance.
+Efficient for large product catalogs.
+Requires fewer comparisons.
+Improves user experience through faster search results.
+Scales well as the number of products increases.
