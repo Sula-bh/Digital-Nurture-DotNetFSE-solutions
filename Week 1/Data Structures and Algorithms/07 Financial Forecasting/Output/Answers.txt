@@ -1,0 +1,48 @@
+1. Explain the concept of recursion and how it can simplify certain problems.
+
+Answer:
+
+The Concept of Recursion is:
+
+Recursion is a programming technique where a method calls itself to solve a smaller version of the same problem.
+It consists of a base case and a recursive case.
+It simplifies problems that can be divided into smaller subproblems.
+
+The Benefits of Recursion are:
+
+Produces cleaner and more readable code.
+Suitable for mathematical and divide-and-conquer problems.
+Reduces code complexity for certain algorithms.
+
+2. Discuss the time complexity of your recursive algorithm.
+
+Answer:
+
+The Time Complexity Analysis is:
+
+Each recursive call processes one year.
+The number of recursive calls is equal to the number of years.
+
+Therefore:
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+Where:
+
+n = Number of years being forecasted.
+
+The space complexity is O(n) because each recursive call is stored in the call stack.
+
+3. Explain how to optimize the recursive solution to avoid excessive computation.
+
+Answer:
+
+The Optimization Strategies are:
+
+Use an iterative approach to eliminate recursive call overhead.
+Apply memoization when recursive calculations involve repeated subproblems.
+Use dynamic programming techniques to store previously computed results.
+Reduce stack usage by avoiding deep recursion for large inputs.
+
+These optimizations improve performance and prevent stack overflow issues for large datasets.
